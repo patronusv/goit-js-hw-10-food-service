@@ -11,7 +11,7 @@ export const themeToggle = () => {
       refs.body.classList.add(Theme.LIGHT);
     }
   } else {
-    refs.body.classList.add(Theme.LIGHT);
+    refs.themeSwitchToggle.checked = false;
     refs.body.classList.add(Theme.LIGHT);
   }
 
